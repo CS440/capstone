@@ -44,7 +44,7 @@ componentDidMount() {
 
       }}>
 
-      
+      // These are the markers for the map
       <Expo.MapView.Marker coordinate = {this.state.location.coords} title = {"You are here cool person"} pinColor = {"#f442f1"} />
       <Expo.MapView.Marker coordinate = {{latitude: 39.821205, longitude: -77.232254}} title = {"Scary Place"} />
       <Expo.MapView.Marker coordinate = {{latitude: 39.830947, longitude: -77.231133}} title = {"Lincoln Square"} description = {"The Circle of Gettysburg"} pinColor = {"#ede02d"}/>
