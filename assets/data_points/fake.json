@@ -1,0 +1,138 @@
+[
+    { 
+        "_id" : "5ba82eb23aeb5659612c884d", 
+        "siteName" : "site1", 
+        "category" : "Lincoln Trail",
+        "desc" : "This is a description.", 
+        "lat" : 123453, 
+        "long" : 1234523, 
+        "images": [
+            { 
+                "image1": {"fn": "image1", "caption1": "This is caption 1 for image1"}, 
+                "image2": {"fn": "image2", "caption2": "This is caption 2 for image2"}, 
+                "image3": {"fn": "image3", "caption3": "This is caption 3 for image3"}}], 
+        "__v" : 0},
+    { 
+        "_id" :"5ba82f043aeb5659612c884e", 
+        "siteName" : "site2", 
+        "category" : "Lincoln Trail", 
+        "desc" : "O Captain, My Captain", 
+        "lat" : 1223453, 
+        "long" : 2335647, 
+        "images": [], 
+        "__v" : 0 },
+{ 
+    "_id" : "5ba82fde3aeb5659612c884f", 
+    "siteName" : "site3", 
+    "category" : "Fighting in the Streets", 
+    "desc" : "Our fearful trip is done.", 
+    "lat" : 156472, 
+    "long" : 245743, 
+    "images": [
+        { 
+            "image1": {"fn": "image1", "caption1": "This is caption 1 for image1"}, 
+            "image3": {"fn": "image3", "caption3": "This is caption 3 for image3"}}], 
+    "__v" : 0 },
+{ 
+    "_id" : "5ba831583aeb5659612c8850", 
+    "siteName" : "site4", 
+    "category" : "Early Town History", 
+    "desc" : "The ship has weathered every rack", 
+    "lat" : 1457892, 
+    "long" : 23223124, 
+    "images": [
+        { "image1": {"fn": "image1", "caption1": "This is caption 1 for image1"}}], 
+    "__v" : 0 },
+{ 
+    "_id" : "5ba831ce3aeb5659612c8851", 
+    "siteName" : "site5", 
+    "category" : "Early Town History", 
+    "desc" : "This is another description.", 
+    "lat" : 1654562, 
+    "long" : -124323, 
+    "images": [
+        { 
+            "image1": {"fn": "image1", "caption1": "This is caption 1 for image1"}, 
+            "image2": {"fn": "image2", "caption2": "This is caption 2 for image2"}, 
+            "image3": {"fn": "image3", "caption3": "This is caption 3 for image3"}}], 
+    "__v" : 0 },
+{ 
+    "_id" : "5ba832be3aeb5659612c8852", 
+    "siteName" : "site6", 
+    "category" : "Lincoln Trail", 
+    "desc" : "The prize we sought is won.", 
+    "lat" : 109692312, 
+    "long" : 12468923, 
+    "images": [
+        { 
+            "image1": {"fn": "image1", "caption1": "This is caption 1 for image1"}, 
+            "image2": {"fn": "image2", "caption2": "This is caption 2 for image2"}, 
+            "image3": {"fn": "image3", "caption3": "This is caption 3 for image3"}}],
+     "__v" : 0 },
+{ 
+    "_id" : "5ba832f03aeb5659612c8853", 
+    "siteName" : "site7", 
+    "category" : "Lincoln Trail", 
+    "desc" : "The port is near", 
+    "lat" : 1235122, 
+    "long" : 23096394, 
+    "images": [
+        { 
+            "image1": {"fn": "image1", "caption1": "This is caption 1 for image1"}, 
+            "image2": {"fn": "image2", "caption2": "This is caption 2 for image2"}, 
+            "image3": {"fn": "image3", "caption3": "This is caption 3 for image3"}}],
+     "__v" : 0 },
+{ 
+    "_id" : "5ba833063aeb5659612c8854", 
+    "siteName" : "site8", 
+    "category" : "Fighting in the Streets", 
+    "desc" : "The bells I hear.", 
+    "lat" : -134622, 
+    "long" : 2462463.24, 
+    "images": [], 
+    "__v" : 0 },
+{ 
+    "_id" : "5ba834293aeb5659612c8855", 
+    "siteName" : "site9", 
+    "category" : "Fighting in the Streets", 
+    "desc" : "The people all exulting.", 
+    "lat" : 12250124.66, 
+    "long" : 223522.563, 
+    "images": [
+        {
+            "image2": {"fn": "image2", "caption2": "This is caption 2 for image2"}, 
+            "image3": {"fn": "image3", "caption3": "This is caption 3 for image3"}}],
+    "__v" : 0 },
+{ 
+    "_id" : "5ba83d1154d4d85ce3739db8", 
+    "siteName" : "site10", 
+    "category" : "Lincoln Trail", 
+    "desc" : "While follow eyes the steady keel, the vessel grim and daring.", 
+    "lat" : 1235122, 
+    "long" : 22353.73, 
+    "images": [
+        { 
+            "image1": {"fn": "image1", "caption1": "This is caption 1 for image1"}, 
+            "image2": {"fn": "image2", "caption2": "This is caption 2 for image2"}, 
+            "image3": {"fn": "image3", "caption3": "This is caption 3 for image3"}}],
+    "__v" : 0 },
+{ 
+    "_id" : "5ba83d4f54d4d85ce3739db9", 
+    "siteName" : "site11", 
+    "category" : "Fighting in the Streets", 
+    "desc" : "But O heart, heart, heart!", 
+    "lat" : 122352.55, 
+    "long" : 23235235.6, 
+    "images": [], 
+    "__v" : 0 },
+{ 
+    "_id" : "5ba83dc7ff096c5ceee02fc5", 
+    "siteName" : "site12", 
+    "category" : "Early Town History", 
+    "desc" : "O the bleeding drops of red.", 
+    "lat" : 11235432, 
+    "long" : 9078023, 
+    "images": [
+        {
+            "image2": {"fn": "image2", "caption2": "This is caption 2 for image2"}}],
+     "__v" : 0 }]
