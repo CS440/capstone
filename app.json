@@ -2,13 +2,9 @@
 
 
   "expo": {
-    "splash": {
-    "image": "./assets/images/truck.jpg",
-    "backgroundColor": "#FEF9B0"
-  },
-    "name": "MapTutorial",
+    "name": "Gettysburg: A Walk Through Time",
     "description": "A very interesting project.",
-    "slug": "MapTutorial",
+    "slug": "Gettysburg: A Walk Through Time",
     "privacy": "public",
     "sdkVersion": "30.0.0",
     "platforms": ["ios", "android"],
