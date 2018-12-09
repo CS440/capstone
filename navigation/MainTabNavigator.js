@@ -2,15 +2,15 @@ import React from 'react';
 import { Platform } from 'react-native';
 import { createStackNavigator, createBottomTabNavigator } from 'react-navigation';
 import TabBarIcon from '../components/TabBarIcon';
-import HomeScreen from '../screens/ARScreen';
-import LinksScreen from '../screens/MapScreen';
+import ARScreen from '../screens/ARScreen';
+import MapScreen from '../screens/MapScreen';
 import SettingsNavigator from '../navigation/SettingsNavigator';
 
-const HomeStack = createStackNavigator({
-  Home: HomeScreen,
+const ARStack = createStackNavigator({
+  AR: ARScreen,
 });
 
-HomeStack.navigationOptions = {
+ARStack.navigationOptions = {
   tabBarLabel: 'AR',
   tabBarIcon: ({ focused }) => (
     <TabBarIcon
@@ -24,11 +24,11 @@ HomeStack.navigationOptions = {
   ),
 };
 
-const LinksStack = createStackNavigator({
-  Links: LinksScreen,
+const MapStack = createStackNavigator({
+  Map: MapScreen,
 });
 
-LinksStack.navigationOptions = {
+MapStack.navigationOptions = {
   tabBarLabel: 'Map',
   tabBarIcon: ({ focused }) => (
     <TabBarIcon
@@ -53,7 +53,7 @@ SettingsStack.navigationOptions = {
 };
 
 export default createBottomTabNavigator({
-  LinksStack,
-  HomeStack,
+  MapStack,
+  ARStack,
   SettingsStack,
 });
